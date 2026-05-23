@@ -1,0 +1,200 @@
+aid: findem
+name: Findem
+url: https://raw.githubusercontent.com/api-evangelist/findem/refs/heads/main/apis.yml
+description: >-
+  Findem is an AI Talent Intelligence platform that blends assistive AI for
+  sourcing, marketing, executive search, and analytics with agentic AI workers
+  for intelligent job posting, application boost, screening, and scheduling. The
+  company also exposes Embedded AI building blocks (AI Job Board, Sourcing
+  Copilot, Labeling Engine, Agents, and MCP) for partners to ship branded AI
+  hiring experiences. Findem is sold enterprise-direct; ATS, HRIS, and partner
+  integrations are gated rather than offered through a public self-serve
+  developer portal.
+kind: company
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Talent Intelligence
+  - AI Sourcing
+  - Talent Analytics
+  - Agentic AI
+  - Embedded AI
+  - HR Tech
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: findem:talent-sourcing
+    name: Findem Talent Sourcing
+    description: >-
+      Assistive AI product that searches Findem's enriched people graph using
+      natural-language attribute queries, returning ranked candidate lists with
+      contact data and outreach workflows.
+    humanURL: https://www.findem.ai
+    baseURL: https://app.findem.ai
+    tags:
+      - Sourcing
+      - Talent Intelligence
+      - People Graph
+    properties:
+      - type: Documentation
+        url: https://www.findem.ai
+  - aid: findem:talent-marketing
+    name: Findem Talent Marketing
+    description: >-
+      Outreach and nurture product that automates multi-channel campaigns
+      against Findem-sourced and customer-imported talent pools.
+    humanURL: https://www.findem.ai
+    baseURL: https://app.findem.ai
+    tags:
+      - Talent Marketing
+      - Outreach
+      - Nurture
+    properties:
+      - type: Documentation
+        url: https://www.findem.ai
+  - aid: findem:executive-search
+    name: Findem Executive Search
+    description: >-
+      Specialised sourcing experience focused on senior and executive talent,
+      with longitudinal attribute search across the career graph.
+    humanURL: https://www.findem.ai
+    baseURL: https://app.findem.ai
+    tags:
+      - Executive Search
+      - Sourcing
+    properties:
+      - type: Documentation
+        url: https://www.findem.ai
+  - aid: findem:analytics
+    name: Findem Analytics
+    description: >-
+      Talent analytics product covering pipeline, diversity, and hiring funnel
+      metrics built on Findem's people graph and customer ATS data.
+    humanURL: https://www.findem.ai
+    baseURL: https://app.findem.ai
+    tags:
+      - Talent Analytics
+      - Reporting
+    properties:
+      - type: Documentation
+        url: https://www.findem.ai
+  - aid: findem:market-intelligence
+    name: Findem Market Intelligence
+    description: >-
+      Labour market and competitive talent intelligence module surfacing supply,
+      compensation, and movement signals against Findem's enriched datasets.
+    humanURL: https://www.findem.ai
+    baseURL: https://app.findem.ai
+    tags:
+      - Market Intelligence
+      - Labour Market
+    properties:
+      - type: Documentation
+        url: https://www.findem.ai
+  - aid: findem:intelligent-job-post
+    name: Findem Intelligent Job Post Agent
+    description: >-
+      Agentic AI worker that drafts, optimises, and distributes job posts based
+      on role requirements and historical performance.
+    humanURL: https://www.findem.ai
+    baseURL: https://app.findem.ai
+    tags:
+      - Agentic AI
+      - Job Posting
+    properties:
+      - type: Documentation
+        url: https://www.findem.ai
+  - aid: findem:application-boost
+    name: Findem Application Boost Agent
+    description: >-
+      Agentic worker that re-engages and converts inbound applicants through
+      personalised outreach and scheduling.
+    humanURL: https://www.findem.ai
+    baseURL: https://app.findem.ai
+    tags:
+      - Agentic AI
+      - Conversion
+      - Inbound
+    properties:
+      - type: Documentation
+        url: https://www.findem.ai
+  - aid: findem:screening-agent
+    name: Findem Screening Agent
+    description: >-
+      Agentic worker that screens applicants against role criteria, performs
+      structured assessments, and advances qualified candidates.
+    humanURL: https://www.findem.ai
+    baseURL: https://app.findem.ai
+    tags:
+      - Agentic AI
+      - Screening
+      - Assessment
+    properties:
+      - type: Documentation
+        url: https://www.findem.ai
+  - aid: findem:scheduling-agent
+    name: Findem Scheduling Agent
+    description: >-
+      Agentic worker that coordinates interview scheduling across candidate and
+      interviewer calendars.
+    humanURL: https://www.findem.ai
+    baseURL: https://app.findem.ai
+    tags:
+      - Agentic AI
+      - Scheduling
+      - Coordination
+    properties:
+      - type: Documentation
+        url: https://www.findem.ai
+  - aid: findem:data-labeling-engine
+    name: Findem Data Labeling Engine
+    description: >-
+      "Build AI" service that labels and structures HR data so customers and
+      partners can train and operate their own talent models.
+    humanURL: https://www.findem.ai
+    baseURL: https://app.findem.ai
+    tags:
+      - Data Labeling
+      - Training Data
+      - AI Infrastructure
+    properties:
+      - type: Documentation
+        url: https://www.findem.ai
+  - aid: findem:embedded-ai
+    name: Findem Embedded AI (AI Job Board, Sourcing Copilot, Agents, MCP)
+    description: >-
+      Embedded AI building blocks - including the AI Job Board, Sourcing
+      Copilot, Labeling Engine, agents, and an MCP surface - that partners use
+      to ship Findem-powered talent experiences inside their own products.
+    humanURL: https://www.findem.ai
+    baseURL: https://app.findem.ai
+    tags:
+      - Embedded AI
+      - MCP
+      - Partner API
+      - Agents
+    properties:
+      - type: Documentation
+        url: https://www.findem.ai
+common:
+  - type: Website
+    url: https://www.findem.ai
+  - type: Contact
+    url: https://www.findem.ai/contact-us
+  - type: Partnerships
+    url: https://www.findem.ai/partnerships
+  - type: Demo
+    url: https://www.findem.ai/request-demo
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/findemai/
+integrations:
+  - name: Workday
+  - name: SAP SuccessFactors
+  - name: iCIMS
+  - name: Greenhouse
+  - name: Lever
+  - name: Ashby
+  - name: SmartRecruiters
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
