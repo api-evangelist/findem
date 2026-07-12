@@ -177,6 +177,8 @@ apis:
       - type: Documentation
         url: https://www.findem.ai
 common:
+  - type: DomainSecurity
+    url: security/findem-domain-security.yml
   - type: Website
     url: https://www.findem.ai
   - type: Contact
