@@ -39,7 +39,7 @@ tags:
   - Talent Intelligence
   - AI Sourcing
   - Talent Analytics
-  - Agentic AI
+  - AI Agents
   - Embedded AI
   - Human Resources
 tags_raw:
@@ -129,6 +129,9 @@ apis:
     humanURL: https://www.findem.ai
     baseURL: https://app.findem.ai
     tags:
+      - AI Agents
+      - Job Posting
+    tags_raw:
       - Agentic AI
       - Job Posting
     properties:
@@ -142,6 +145,10 @@ apis:
     humanURL: https://www.findem.ai
     baseURL: https://app.findem.ai
     tags:
+      - AI Agents
+      - Conversion
+      - Inbound
+    tags_raw:
       - Agentic AI
       - Conversion
       - Inbound
@@ -156,6 +163,10 @@ apis:
     humanURL: https://www.findem.ai
     baseURL: https://app.findem.ai
     tags:
+      - AI Agents
+      - Screening
+      - Assessment
+    tags_raw:
       - Agentic AI
       - Screening
       - Assessment
@@ -170,6 +181,10 @@ apis:
     humanURL: https://www.findem.ai
     baseURL: https://app.findem.ai
     tags:
+      - AI Agents
+      - Scheduling
+      - Coordination
+    tags_raw:
       - Agentic AI
       - Scheduling
       - Coordination
