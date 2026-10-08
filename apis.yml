@@ -222,6 +222,12 @@ apis:
       - type: Documentation
         url: https://www.findem.ai
 common:
+  - type: Plans
+    url: plans/findem-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/findem-rate-limits.yml
+  - type: FinOps
+    url: finops/findem-finops.yml
   - url: https://www.findem.ai/blog
     type: Blog
   - type: DomainSecurity
